@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chandrika Kanwar - Portfolio</title>
+</head>
+
+<body>
+
+    <h1>Hi, I'm Chandrika Kanwar 👋</h1>
+
+    <h2>BCA Student | Java Developer | Learner</h2>
+
+    <hr>
+
+    <h2>About Me</h2>
+    <p>
+        Hello! I am Chandrika Kanwar, a BCA student interested in
+        programming, software development and learning new technologies.
+    </p>
+
+    <h2>Education</h2>
+    <ul>
+        <li>Bachelor of Computer Applications (BCA)</li>
+        <li>Class 12 - 80%</li>
+        <li>Class 10 - 65%</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>DBMS</li>
+        <li>HTML & CSS</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <h3>Smart Pomodoro Study Timer</h3>
+    <p>
+        A Java Swing based study timer designed to help students
+        manage study sessions, breaks and tasks.
+    </p>
+
+    <h2>Contact</h2>
+    <p>Email: Your Email Here</p>
+    <p>GitHub: chandrika-kunwar</p>
+
+</body>
+</html>
