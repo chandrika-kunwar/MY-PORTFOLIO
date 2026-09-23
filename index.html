@@ -1,50 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Chandrika Kanwar - Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chandrika Kunwar | Unique Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a14;color:#cbd5e1;font-family:system-ui,sans-serif;padding-bottom:90px;overflow-x:hidden}
+.top{padding:14px 18px;display:flex;justify-content:space-between;align-items:center;background:rgba(14,20,41,0.8);backdrop-filter:blur(12px);position:sticky;top:0;z-index:99;border-bottom:1px solid #2a1a4a}
+.logo{display:flex;gap:10px;align-items:center;font-weight:900;color:white}
+.logo span{width:38px;height:38px;background:linear-gradient(135deg,#f472b6,#a78bfa,#60a5fa);display:grid;place-items:center;border-radius:12px;box-shadow:0 0 15px #a78bfa}
+.badge{background:linear-gradient(90deg,#1a1033,#2a1a4a);border:1px solid #a78bfa;color:#d8b4fe;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:700}
+.section{display:none;padding:14px} .section.active{display:block;animation:pop .4s} @keyframes pop{from{opacity:0;transform:translateY(15px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+.hero{position:relative;background:linear-gradient(135deg,#1a1033 0%,#121a33 50%,#0f1a33 100%);border:1px solid #3a2a6a;border-radius:28px;padding:26px;margin:14px 0;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-50%;left:-30%;width:80%;height:200%;background:radial-gradient(circle,rgba(168,85,247,0.15),transparent 60%);pointer-events:none}
+.typing{color:#f0abfc;font-family:monospace;font-size:13px;margin-bottom:12px}
+.hero h1{font-size:34px;font-weight:900;color:white;line-height:1.1;position:relative}
+.hero h1 span{background:linear-gradient(90deg,#f472b6,#a78bfa,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero .tag{display:inline-block;margin-top:12px;background:rgba(168,85,247,0.15);border:1px solid #a78bfa;color:#e9d5ff;padding:6px 12px;border-radius:20px;font-size:12px}
+.card{background:rgba(18,26,51,0.7);backdrop-filter:blur(10px);border:1px solid #2a2a5a;border-radius:22px;padding:20px;margin:16px 0;box-shadow:0 8px 25px rgba(0,0,0,0.3)}
+.card h2{color:white;font-size:17px;margin-bottom:14px}
+.pill{display:inline-block;padding:8px 14px;border-radius:20px;font-size:13px;margin:5px;border:1px solid #3a3a6a;background:#1e1a3a;color:#c4b5fd;transition:.2s}
+.pill:hover{transform:translateY(-2px);box-shadow:0 5px 15px rgba(168,85,247,0.3)}
+.pill.hot{background:linear-gradient(90deg,#2a1a4a,#1a2a4a);border-color:#a78bfa;color:#f0abfc;font-weight:700}
+.stat{display:flex;gap:12px;margin-top:16px}
+.stat div{flex:1;background:#161a33;border:1px solid #2a2a5a;padding:12px;border-radius:16px;text-align:center}
+.stat b{color:white;font-size:18px;display:block} .stat small{color:#94a3b8;font-size:11px}
+.contact-item{display:flex;gap:14px;align-items:center;background:linear-gradient(90deg,#1a1a3a,#1a203a);border:1px solid #3a2a5a;padding:14px;border-radius:18px;margin:10px 0}
+.contact-item .ic{width:50px;height:50px;background:linear-gradient(135deg,#a78bfa,#f472b6);display:grid;place-items:center;border-radius:14px;font-size:22px;color:white}
+.nav{position:fixed;bottom:12px;left:12px;right:12px;background:rgba(14,20,41,0.9);backdrop-filter:blur(20px);border:1px solid #3a2a6a;display:flex;justify-content:space-around;padding:10px;border-radius:24px;z-index:100;box-shadow:0 10px 30px rgba(0,0,0,0.5)}
+.nav div{color:#64748b;font-size:11px;text-align:center;cursor:pointer;padding:6px 10px;border-radius:14px;transition:.2s;width:20%}
+.nav div.active{background:linear-gradient(90deg,#a78bfa,#f472b6);color:white;box-shadow:0 4px 12px rgba(168,85,247,0.4)}
+</style>
 </head>
-
 <body>
 
-    <h1>Hi, I'm Chandrika Kanwar 👋</h1>
+<div class="top">
+  <div class="logo"><span>CK</span> Chandrika Kunwar</div>
+  <div class="badge">✨ BCA 3rd Sem</div>
+</div>
 
-    <h2>BCA Student | Java Developer | Learner</h2>
+<div id="home" class="section active">
+  <div class="hero">
+    <div class="typing">> chandrika.exe --building future</div>
+    <h1>Designing<br>Clean <span>Databases<br>& Logic</span> with 💜</h1>
+    <div class="tag">🚀 BCA Student | Java Learner | MLSU</div>
+    <div class="stat">
+      <div><b>7.40</b><small>SGPA</small></div>
+      <div><b>74%</b><small>Score</small></div>
+      <div><b>5+</b><small>Skills</small></div>
+    </div>
+  </div>
 
-    <hr>
+  <div class="card">
+    <h2>🎓 Academic Background</h2>
+    <div style="color:white;font-weight:800;font-size:18px">BCA - Bachelor of Computer Applications</div>
+    <div style="color:#c4b5fd;margin:5px 0">Adarsh College of Professional Studies, Abu Road</div>
+    <div style="color:#94a3b8;font-size:13px">Affiliated to MLSU • 3rd Semester • BCA 2nd Year</div>
+    <div style="margin-top:12px;display:inline-block;background:linear-gradient(90deg,#052e16,#14532d);border:1px solid #22c55e;color:#4ade80;padding:8px 16px;border-radius:20px;font-weight:700">🏆 7.40 SGPA - 74%</div>
+    <p style="margin-top:12px;font-size:13px;color:#94a3b8;line-height:1.6"><b style="color:white">Core:</b> DBMS, SQL, C++, C, Java, Data Structures, Operating System</p>
+  </div>
+</div>
 
-    <h2>About Me</h2>
-    <p>
-        Hello! I am Chandrika Kanwar, a BCA student interested in
-        programming, software development and learning new technologies.
-    </p>
+<div id="skills" class="section">
+  <div class="card">
+    <h2>💎 My Tech Stack</h2>
+    <div style="color:#a78bfa;font-size:12px;letter-spacing:1px;margin:10px 0">DATABASE - MY SUPERPOWER</div>
+    <span class="pill hot">DBMS Concepts</span><span class="pill hot">SQL Mastery</span><span class="pill">Normalization</span><span class="pill">ER-Diagram</span><span class="pill">Schema Design</span>
+    <div style="color:#a78bfa;font-size:12px;letter-spacing:1px;margin:16px 0 10px 0">LANGUAGES</div>
+    <span class="pill hot">Java ☕</span><span class="pill">C++</span><span class="pill">C Language</span><span class="pill">Data Structures</span><span class="pill">OS</span>
+  </div>
+  <div class="card">
+    <h2>🌸 Key Strengths</h2>
+    <span class="pill hot">👩‍💻 Logical Thinking</span><span class="pill">🎯 Detail Oriented</span><span class="pill">💡 Quick Learner</span><span class="pill">🤝 Team Player</span><span class="pill">✨ Creative Mind</span><span class="pill">🕒 Disciplined</span>
+  </div>
+</div>
 
-    <h2>Education</h2>
-    <ul>
-        <li>Bachelor of Computer Applications (BCA)</li>
-        <li>Class 12 - 80%</li>
-        <li>Class 10 - 65%</li>
-    </ul>
+<div id="lab" class="section">
+  <div class="card">
+    <h2>🪄 SQL Lab & Creations</h2>
+    <div class="contact-item"><div class="ic">🗄️</div><div><b style="color:white">Student DBMS Project</b><br><small style="color:#94a3b8">Clean database design for college records with SQL queries</small></div></div>
+    <div class="contact-item"><div class="ic">💜</div><div><b style="color:white">This Unique Portfolio</b><br><small style="color:#94a3b8">Designed by me, inspired by modern UI, hosted on GitHub</small></div></div>
+  </div>
+</div>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>C</li>
-        <li>C++</li>
-        <li>Java</li>
-        <li>SQL</li>
-        <li>DBMS</li>
-        <li>HTML & CSS</li>
-    </ul>
+<div id="academics" class="section">
+  <div class="card">
+    <h2>📚 My Journey</h2>
+    <div style="border-left:3px solid #a78bfa;padding-left:14px;margin:12px 0"><b style="color:white">BCA 2nd Year (3rd Sem)</b><br><small>Adarsh College, Abu Road • 7.40 SGPA • Learning DBMS & Java in depth</small></div>
+    <div style="border-left:3px solid #f472b6;padding-left:14px;margin:12px 0"><b style="color:white">Future Goal</b><br><small>Aspiring Software Developer / Database Administrator</small></div>
+  </div>
+</div>
 
-    <h2>Projects</h2>
-    <h3>Smart Pomodoro Study Timer</h3>
-    <p>
-        A Java Swing based study timer designed to help students
-        manage study sessions, breaks and tasks.
-    </p>
+<div id="contact" class="section">
+  <div class="card">
+    <h2>💌 Let's Connect</h2>
+    <div class="contact-item" onclick="location.href='mailto:chandrikabarod.1234@gmail.com'"><div class="ic">✉️</div><div><small style="color:#94a3b8">Email Me</small><b style="color:white">chandrikabarod.1234@gmail.com</b></div></div>
+    <div class="contact-item"><div class="ic">📍</div><div><small style="color:#94a3b8">Based In</small><b style="color:white">Abu Road, Rajasthan (From Khimsar)</b></div></div>
+    <div class="contact-item"><div class="ic">🎓</div><div><small style="color:#94a3b8">College</small><b style="color:white">Adarsh College of Professional Studies</b></div></div>
+  </div>
+</div>
 
-    <h2>Contact</h2>
-    <p>Email: chandrikabarod.1234gmail.com</p>
-    <p>GitHub: chandrika-kunwar</p>
+<div class="nav">
+  <div class="active" onclick="go('home',this)">🏠<br>Home</div>
+  <div onclick="go('skills',this)">💎<br>Skills</div>
+  <div onclick="go('lab',this)">🪄<br>Lab</div>
+  <div onclick="go('academics',this)">📚<br>Study</div>
+  <div onclick="go('contact',this)">💌<br>Contact</div>
+</div>
 
+<script>
+function go(id,el){
+ document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+ document.getElementById(id).classList.add('active');
+ document.querySelectorAll('.nav div').forEach(d=>d.classList.remove('active'));
+ el.classList.add('active');
+ scrollTo(0,0);
+}
+</script>
 </body>
 </html>
